@@ -201,6 +201,10 @@ Non-aggregated `ac` electrical measurement locations are qualified by:
   - `phasePf`: `elecLine`
   - `lineEnergy`: `elecLineToLine`
   - `phaseEnergy`: `elecLine`
+  - `ground`: for electrical current measurement of the electrical ground
+  conductor
+  - `neutral`: for electrical current measurement of the electrical neutral
+  conductor
 
 Aggregated `ac` electrical measurement locations are qualified by:
   - `lineAvg`:  Applies to points with 'volt', 'current', 'power', 'pf',
